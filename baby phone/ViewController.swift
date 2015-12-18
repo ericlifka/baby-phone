@@ -49,6 +49,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
         if let beepsound = self.setupAudioPlayerWithFile("beep9", type:"mp3") {
             self.beepsound = beepsound
         }
