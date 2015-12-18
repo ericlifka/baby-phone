@@ -14,6 +14,11 @@
 		B602E97E1C221BB00072CC74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B602E97C1C221BB00072CC74 /* LaunchScreen.storyboard */; };
 		B602E9891C221BB00072CC74 /* baby_phoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B602E9881C221BB00072CC74 /* baby_phoneTests.swift */; };
 		B602E9941C221BB00072CC74 /* baby_phoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B602E9931C221BB00072CC74 /* baby_phoneUITests.swift */; };
+		B67431AD1C238603009BCFC1 /* beep9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B67431AC1C238603009BCFC1 /* beep9.mp3 */; };
+		B67431AF1C238610009BCFC1 /* phone-ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B67431AE1C238610009BCFC1 /* phone-ringtone.mp3 */; };
+		B67431B11C23861B009BCFC1 /* glass1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B67431B01C23861B009BCFC1 /* glass1.mp3 */; };
+		B67431B51C239CA2009BCFC1 /* hello.amr in Resources */ = {isa = PBXBuildFile; fileRef = B67431B41C239CA2009BCFC1 /* hello.amr */; };
+		B67431B71C239F00009BCFC1 /* hello.m4a in Resources */ = {isa = PBXBuildFile; fileRef = B67431B61C239F00009BCFC1 /* hello.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		B602E98F1C221BB00072CC74 /* baby phoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "baby phoneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B602E9931C221BB00072CC74 /* baby_phoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = baby_phoneUITests.swift; sourceTree = "<group>"; };
 		B602E9951C221BB00072CC74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B67431AC1C238603009BCFC1 /* beep9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = beep9.mp3; path = ../../beep9.mp3; sourceTree = "<group>"; };
+		B67431AE1C238610009BCFC1 /* phone-ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "phone-ringtone.mp3"; path = "../../phone-ringtone.mp3"; sourceTree = "<group>"; };
+		B67431B01C23861B009BCFC1 /* glass1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = glass1.mp3; path = ../../glass1.mp3; sourceTree = "<group>"; };
+		B67431B41C239CA2009BCFC1 /* hello.amr */ = {isa = PBXFileReference; lastKnownFileType = file; name = hello.amr; path = ../hello.amr; sourceTree = "<group>"; };
+		B67431B61C239F00009BCFC1 /* hello.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; name = hello.m4a; path = ../hello.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,8 @@
 		B602E9671C221BB00072CC74 = {
 			isa = PBXGroup;
 			children = (
+				B67431B41C239CA2009BCFC1 /* hello.amr */,
+				B67431B61C239F00009BCFC1 /* hello.m4a */,
 				B602E9721C221BB00072CC74 /* baby phone */,
 				B602E9871C221BB00072CC74 /* baby phoneTests */,
 				B602E9921C221BB00072CC74 /* baby phoneUITests */,
@@ -100,6 +112,9 @@
 				B602E9731C221BB00072CC74 /* AppDelegate.swift */,
 				B602E9751C221BB00072CC74 /* ViewController.swift */,
 				B602E9771C221BB00072CC74 /* Main.storyboard */,
+				B67431B01C23861B009BCFC1 /* glass1.mp3 */,
+				B67431AE1C238610009BCFC1 /* phone-ringtone.mp3 */,
+				B67431AC1C238603009BCFC1 /* beep9.mp3 */,
 				B602E97A1C221BB00072CC74 /* Assets.xcassets */,
 				B602E97C1C221BB00072CC74 /* LaunchScreen.storyboard */,
 				B602E97F1C221BB00072CC74 /* Info.plist */,
@@ -229,9 +244,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B67431AD1C238603009BCFC1 /* beep9.mp3 in Resources */,
+				B67431AF1C238610009BCFC1 /* phone-ringtone.mp3 in Resources */,
+				B67431B51C239CA2009BCFC1 /* hello.amr in Resources */,
 				B602E97E1C221BB00072CC74 /* LaunchScreen.storyboard in Resources */,
 				B602E97B1C221BB00072CC74 /* Assets.xcassets in Resources */,
+				B67431B71C239F00009BCFC1 /* hello.m4a in Resources */,
 				B602E9791C221BB00072CC74 /* Main.storyboard in Resources */,
+				B67431B11C23861B009BCFC1 /* glass1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +504,7 @@
 				B602E99A1C221BB00072CC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B602E99B1C221BB00072CC74 /* Build configuration list for PBXNativeTarget "baby phoneTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +513,7 @@
 				B602E99D1C221BB00072CC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B602E99E1C221BB00072CC74 /* Build configuration list for PBXNativeTarget "baby phoneUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +522,7 @@
 				B602E9A01C221BB00072CC74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
