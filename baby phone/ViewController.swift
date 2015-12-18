@@ -16,6 +16,15 @@ class ViewController: UIViewController {
     var ringsound : AVAudioPlayer?
     var endsound : AVAudioPlayer?
     var hellosound : AVAudioPlayer?
+    var dogsound : AVAudioPlayer?
+    var catsound : AVAudioPlayer?
+    var pigsound : AVAudioPlayer?
+    var horsesound : AVAudioPlayer?
+    var sheepsound : AVAudioPlayer?
+    var elephantsound : AVAudioPlayer?
+    var cowsound : AVAudioPlayer?
+    var birdsound : AVAudioPlayer?
+    var ducksound : AVAudioPlayer?
     
     func setupAudioPlayerWithFile(file:NSString, type:NSString) -> AVAudioPlayer?  {
         //1
@@ -50,6 +59,34 @@ class ViewController: UIViewController {
         if let hellosound = self.setupAudioPlayerWithFile("hello", type: "m4a"){
             self.hellosound = hellosound
         }
+        if let dogsound = self.setupAudioPlayerWithFile("dog", type:"mp3") {
+            self.dogsound = dogsound
+        }
+        if let catsound = self.setupAudioPlayerWithFile("meow", type: "aiff"){
+            self.catsound = catsound
+        }
+        if let pigsound = self.setupAudioPlayerWithFile("pig", type:"mp3") {
+            self.pigsound = pigsound
+        }
+        if let cowsound = self.setupAudioPlayerWithFile("cow", type:"mp3") {
+            self.cowsound = cowsound
+        }
+        if let horsesound = self.setupAudioPlayerWithFile("horse", type: "mp3"){
+            self.horsesound = horsesound
+        }
+        if let elephantsound = self.setupAudioPlayerWithFile("elephant", type:"mp3") {
+            self.elephantsound = elephantsound
+        }
+        if let sheepsound = self.setupAudioPlayerWithFile("sheep", type: "mp3"){
+            self.sheepsound = sheepsound
+        }
+        if let birdsound = self.setupAudioPlayerWithFile("bird", type:"mp3") {
+            self.birdsound = birdsound
+        }
+        if let ducksound = self.setupAudioPlayerWithFile("duck", type: "mp3"){
+            self.ducksound = ducksound
+        }
+
         
     }
 
@@ -66,6 +103,14 @@ class ViewController: UIViewController {
     }
     
     
+    @IBAction func dog(sender: AnyObject) {
+        dogsound?.play()
+    }
+    
+    @IBAction func cat(sender: AnyObject) {
+        catsound?.play()
+    }
+    
     
     @IBAction func ringSound(sender: UIButton) {
         ringsound?.play()
@@ -81,5 +126,32 @@ class ViewController: UIViewController {
         endsound?.play()
     }
     
+    @IBAction func elephant(sender: AnyObject) {
+        elephantsound?.play()
+    }
     
+    
+    @IBAction func pig(sender: AnyObject) {
+        pigsound?.play()
+    }
+    
+    @IBAction func horse(sender: AnyObject) {
+        horsesound?.play()
+    }
+    
+    @IBAction func sheep(sender: AnyObject) {
+        sheepsound?.play()
+    }
+    
+    @IBAction func cow(sender: AnyObject) {
+        cowsound?.play()
+    }
+    
+    @IBAction func bird(sender: AnyObject) {
+        birdsound?.play()
+    }
+    
+    @IBAction func duck(sender: AnyObject) {
+        ducksound?.play()
+    }
 }

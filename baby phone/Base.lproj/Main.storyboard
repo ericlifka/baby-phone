@@ -34,7 +34,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="beepSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hp1-Dp-fMh"/>
+                                            <action selector="cat:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lxt-ld-CK4"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b97-Kx-8bg">
@@ -64,7 +64,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="beepSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1HR-Q7-mUg"/>
+                                            <action selector="pig:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cZb-Eo-brg"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RYJ-PD-mZG">
@@ -76,7 +76,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="beepSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bS1-Ce-ib5"/>
+                                            <action selector="horse:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fkx-56-LRr"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x9C-QZ-kiZ">
@@ -98,7 +98,7 @@
                                             </mask>
                                         </variation>
                                         <connections>
-                                            <action selector="beepSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UFP-6I-eBK"/>
+                                            <action selector="sheep:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o8S-Wh-D7m"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Huj-vX-1c1">
@@ -113,7 +113,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="beepSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cJB-4V-6G7"/>
+                                            <action selector="cow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BYB-RN-tyP"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qdn-aA-IUY">
@@ -128,7 +128,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="beepSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ghi-2T-iwj"/>
+                                            <action selector="bird:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BfX-V1-MNY"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RpX-b2-0Kb">
@@ -152,7 +152,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="beepSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HcO-cv-FbP"/>
+                                            <action selector="duck:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P0j-0O-dAD"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vTu-iC-d0n">
@@ -174,7 +174,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="beepSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jzR-8x-pjS"/>
+                                            <action selector="elephant:" destination="BYZ-38-t0r" eventType="touchUpInside" id="r4c-7Q-Of3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5O-sw-X1r">
@@ -190,7 +190,7 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="beepSound:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TLc-82-aoW"/>
+                                            <action selector="dog:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0SD-78-pcO"/>
                                         </connections>
                                     </button>
                                 </subviews>
