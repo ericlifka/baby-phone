@@ -11,6 +11,8 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    @IBOutlet var buttonstuff: [UIButton]!
+    
     var audioPlayer = AVAudioPlayer()
     var beepsound : AVAudioPlayer?
     var ringsound : AVAudioPlayer?
@@ -86,7 +88,13 @@ class ViewController: UIViewController {
         if let ducksound = self.setupAudioPlayerWithFile("duck", type: "mp3"){
             self.ducksound = ducksound
         }
-
+    
+        for button in buttonstuff {
+            button.layer.shadowOpacity = 1.0
+            button.layer.shadowOffset = CGSize.init(width: 7, height: 7)
+            button.layer.shadowColor = UIColor.blackColor().CGColor
+            button.layer.shadowRadius = 10
+        }
         
     }
 
