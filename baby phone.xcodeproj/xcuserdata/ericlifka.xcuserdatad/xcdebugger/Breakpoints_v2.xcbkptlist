@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "baby phone/ViewController.swift"
+            timestampString = "472158708.160516"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "baby phone/ViewController.swift"
+            timestampString = "472158708.160516"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "baby_phone.ViewController.buttonstuff.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "baby phone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericlifka/Desktop/iOSdeveloper/baby%20phone/baby%20phone/ViewController.swift"
+                  timestampString = "472158218.298503"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "baby_phone.ViewController.buttonstuff.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "baby phone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericlifka/Desktop/iOSdeveloper/baby%20phone/baby%20phone/ViewController.swift"
+                  timestampString = "472158218.299739"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "baby_phone.ViewController.buttonstuff.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "baby phone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericlifka/Desktop/iOSdeveloper/baby%20phone/baby%20phone/ViewController.swift"
+                  timestampString = "472158218.300089"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "baby_phone.ViewController.init (baby_phone.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; baby_phone.ViewController"
+                  moduleName = "baby phone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericlifka/Desktop/iOSdeveloper/baby%20phone/baby%20phone/ViewController.swift"
+                  timestampString = "472158218.30048"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "baby_phone.ViewController.init (baby_phone.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;baby_phone.ViewController&gt;"
+                  moduleName = "baby phone"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ericlifka/Desktop/iOSdeveloper/baby%20phone/baby%20phone/ViewController.swift"
+                  timestampString = "472158218.300597"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
